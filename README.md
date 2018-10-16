@@ -45,7 +45,7 @@ code
 
 - When a script file is used, it is sometimes useful to be able to run the script and enter interactive mode afterwards. This can be done by passing -i before the script.
 
-### 3. An Information Introduction to Python
+### 3. An Informal Introduction to Python
 
 - Integer numbers have type int, the ones with a fractional part have type float. Division always returns a float.
 - To do floor division and get an integer result you can use the  // operator.
@@ -56,6 +56,37 @@ code
 >>> 4 * 3.75 -1
 14.0
 ```
+
+- In interactive mode, the last printed expression is  assigned to the variable _ This means that when you are using Python as a desl calculator, it is somewhat easier to continue calculations, for example:
+
+```
+>>> tax = 12.5/100
+>>> price = 100.50
+>>> price * tax
+12.5625
+>>> price + _
+113.0625
+>>> round(_,2)
+113.06
+```
+
+### 3.1.2 Strings
+- Can use either '' or ""
+- Use \ to escape single quotes 'doesn\'t'
+- Two or more string literals (i.e. the ones enclosed between quotes) next to each other are automatically concatenated.
+- Strings can be indexed (subscripted), with the first character having index 0. There is no separate character type; a character is simply a string of size one.
+- Indices may also be negative numbers, to start counting from the right.
+(Note that since -0 is the same as 0, negative indices start from -1)
+- In addition to indexing, slicing is also supported. While indexing is used to obtain individual characters, slicing allows you to obtain substring:
+```
+word[0:2] #characters from position 0 (included) to 2(excluded)
+word[2:5] #characters from position 2 (included) to 5(excluded)
+```
+- Note how the start is always included, and the end is always excluded. This makes sure that s[:i] + s[i:] is always equal to s.
+
+
+
+
 
 
 
