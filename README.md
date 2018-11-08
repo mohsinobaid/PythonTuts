@@ -84,9 +84,7 @@ word[2:5] #characters from position 2 (included) to 5(excluded)
 ```
 - Note how the start is always included, and the end is always excluded. This makes sure that s[:i] + s[i:] is always equal to s.
 
-
-
-
+Continued in the jupyter notebooks
 
 
 
