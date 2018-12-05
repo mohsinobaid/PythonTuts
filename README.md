@@ -1,3 +1,5 @@
+This is just a snippet. The rest of the tutorials are located in the jupyter notebook.
+
 # Python Tutorials
 [Python.org](https://docs.python.org/3/tutorial/index.html)
 
